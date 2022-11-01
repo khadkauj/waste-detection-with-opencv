@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  align-self: center;
+
+}
+
+li {
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.ul_right{
+  margin-left: auto;
+}
+
+#logo {
+  width: 50px;
+  object-fit: cover;
+}
+
+
+.drone-images{
+  display: flex;
+  justify-content: center;
+}
+
+.drone-images > *{
+  max-width: 30%;
+  padding: 4px;
+}
+
+.form-class{
+  display: grid;
+  place-content: center;
+  margin: 32px;
+}
+
+#check-button{
+  background: #008060;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 14px;
+  font-size: large;
+}

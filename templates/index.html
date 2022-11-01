@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Home </title>
+{% endblock %}
+
+{% block body %}
+<h1>We help you collect your waste!</h1>
+<div class="drone-images">
+    <img src="{{url_for('static', filename='images/drone1.jpg')}}" />
+    <img src="{{url_for('static', filename='images/drone2.webp')}}" />
+    <img src="{{url_for('static', filename='images/drone_logo.png')}}" />
+</div>
+<div class="form-class">
+    <!-- <form  action >
+        <input  type="submit" value="Identify your Waste!" />
+    </form> -->
+
+    <a id="check-button" href="{{url_for('identify')}}">Identify your Waste!</a>
+</div>
+
+
+{% endblock %}

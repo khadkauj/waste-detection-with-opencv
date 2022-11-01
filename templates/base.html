@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    {% block head %} {% endblock %}
+</head>
+
+<body>
+    <!-- <nav>
+        <img id="logo" src="{{url_for('static', filename='images/drone_logo.png')}}"  />
+        <ul class="ul_left" >
+            <li><a href="#home">Why D-waste?</a></li>
+            <li><a href="#news">Features</a></li>
+            <li><a href="#contact">Plans & Pricing</a></li>
+        </ul>
+        <ul class="ul_right">
+            <li><a href="#home">Support</a></li>
+            <li><a href="#news">Contact</a></li>
+            <li><a href="#contact">Get Started</a></li>
+        </ul>
+    </nav> -->
+    {% block body %} {% endblock %}
+</body>
+
+</html>

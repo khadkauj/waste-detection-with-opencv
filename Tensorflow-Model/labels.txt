@@ -1,0 +1,3 @@
+0 charger
+1 mobile
+2 nothing
